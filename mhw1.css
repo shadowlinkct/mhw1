@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+
+#flexlogin {
+  background-color: rgb(0, 0, 0);
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#loginelemcontainerleft {
+  display: flex;
+  background-color: rgb(218, 64, 64);
+  height: 100%;
+  width: 20%;
+  margin-left: 3.3%;
+  justify-content: left;
+  align-items: center;
+}
+
+.loginelemleft {
+  background-color: rgb(106, 106, 106);
+  height: 60%;
+  width: 75%;
+  margin-right: 10%;
+}
+
+#loginelemcontainerright {
+  display: flex;
+  background-color: rgb(218, 64, 64);
+  height: 100%;
+  width: 20%;
+  justify-content: right;
+  align-items: center;
+}
+
+.loginelemright {
+  background-color: rgb(106, 106, 106);
+  height: 60%;
+  width: 75%;
+}
