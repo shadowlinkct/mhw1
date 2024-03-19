@@ -1,42 +1,112 @@
-body {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Roboto Condensed, sans-serif;
 }
 
 #flexlogin {
-  background-color: rgb(0, 0, 0);
-  height: 44px;
+  background-color: rgba(41,39,40,255);
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 4.8vh;
+}
+.logonav{
+  background-color: rgb(184, 184, 184);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 9.8vh;
+}
+.centerlink{
+  background-color: rgba(255, 255, 255, 0);
+display: flex;
+align-items: center;
+justify-content: space-around;
+width: 36.3%;
+height: 100%;
+}
+div.centerlink a {
+  font-weight: bold;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  padding: 0.5% 0.5%;
 }
 
-#loginelemcontainerleft {
+#logodiv {
+  background-color: rgba(43, 174, 226, 0);
   display: flex;
-  background-color: rgb(218, 64, 64);
-  height: 100%;
-  width: 20%;
-  margin-left: 3.3%;
-  justify-content: left;
   align-items: center;
+  height: 100%;
+  width: 33.3%;
+  z-index: 0;
+}
+#logodiv img{
+  height: 80%;
+  width: 30%;
+  margin-left: 32.5%;
+}
+#loginelemcontainer {
+  background-color: rgba(41,39,40,255);
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  margin-left: 3.3%;
+  margin-right: 3.3%;
+  align-items: center;
+}
+div#loginelemcontainer a {
+  color: rgba(161,165,167,255);
+  margin: 0;
+  font-size: 14px;
+  color: rgba(159,163,165,255);
 }
 
 .loginelemleft {
-  background-color: rgb(106, 106, 106);
-  height: 60%;
-  width: 75%;
-  margin-right: 10%;
-}
-
-#loginelemcontainerright {
   display: flex;
-  background-color: rgb(218, 64, 64);
-  height: 100%;
-  width: 20%;
-  justify-content: right;
+  background-color: rgb(106, 106, 106);
+  margin-right: 15%;
+  justify-content: center;
+  align-items: center;
+}
+#loginelemleft {
+  display: flex;
+  background-color: rgb(106, 106, 106);
+  justify-content: center;
   align-items: center;
 }
 
 .loginelemright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(106, 106, 106);
-  height: 60%;
-  width: 75%;
+  margin-left: 15%;
+}
+
+#loginelemright {
+  display: flex;
+  background-color: rgb(106, 106, 106);
+  justify-content: center;
+  align-items: center;
+}
+.group {
+  display: flex;
+  margin-left: 8%;
+  height: 100%;
+  width: 15%;
+  justify-content: space-around;
+  align-items: center;
+}
+.group2 {
+  display: flex;
+  margin-right: 9%;
+  height: 100%;
+  width: 12%;
+  justify-content: space-around;
+  align-items: center;
 }
