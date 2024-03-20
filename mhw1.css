@@ -3,37 +3,42 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
+
+body {
   font-family: Roboto Condensed, sans-serif;
 }
 
 #flexlogin {
-  background-color: rgba(41,39,40,255);
+  background-color: rgba(41, 39, 40, 255);
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 4.8vh;
 }
-.logonav{
-  background-color: rgb(184, 184, 184);
+
+.logonav {
+  background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: flex-start;
   align-items: center;
   height: 9.8vh;
 }
-.centerlink{
+
+.centerlink {
   background-color: rgba(255, 255, 255, 0);
-display: flex;
-align-items: center;
-justify-content: space-around;
-width: 36.3%;
-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 36.3%;
+  height: 100%;
 }
+
 div.centerlink a {
   font-weight: bold;
   font-size: 16px;
   color: rgb(0, 0, 0);
   padding: 0.5% 0.5%;
+  
 }
 
 #logodiv {
@@ -44,13 +49,15 @@ div.centerlink a {
   width: 33.3%;
   z-index: 0;
 }
-#logodiv img{
-  height: 80%;
-  width: 30%;
-  margin-left: 32.5%;
+
+#logodiv img {
+  height: 83%;
+  width: 33%;
+  margin-left: 32%;
 }
+
 #loginelemcontainer {
-  background-color: rgba(41,39,40,255);
+  background-color: rgba(41, 39, 40, 255);
   display: flex;
   justify-content: space-between;
   height: 100%;
@@ -59,41 +66,14 @@ div.centerlink a {
   margin-right: 3.3%;
   align-items: center;
 }
+
 div#loginelemcontainer a {
-  color: rgba(161,165,167,255);
+  color: rgba(161, 165, 167, 255);
   margin: 0;
   font-size: 14px;
-  color: rgba(159,163,165,255);
+  color: rgba(159, 163, 165, 255);
 }
 
-.loginelemleft {
-  display: flex;
-  background-color: rgb(106, 106, 106);
-  margin-right: 15%;
-  justify-content: center;
-  align-items: center;
-}
-#loginelemleft {
-  display: flex;
-  background-color: rgb(106, 106, 106);
-  justify-content: center;
-  align-items: center;
-}
-
-.loginelemright {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(106, 106, 106);
-  margin-left: 15%;
-}
-
-#loginelemright {
-  display: flex;
-  background-color: rgb(106, 106, 106);
-  justify-content: center;
-  align-items: center;
-}
 .group {
   display: flex;
   margin-left: 8%;
@@ -102,6 +82,7 @@ div#loginelemcontainer a {
   justify-content: space-around;
   align-items: center;
 }
+
 .group2 {
   display: flex;
   margin-right: 9%;
@@ -109,4 +90,51 @@ div#loginelemcontainer a {
   width: 12%;
   justify-content: space-around;
   align-items: center;
+}
+.articlecontainer{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(6,11,16,255);
+  height: 68.5vh;
+  width: 100%;
+
+}
+#h1article{
+  display: flex;
+  height: 100%;
+  margin-left: 20%;
+}
+div#h1article h1{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.85em;
+  margin-top: 20%;
+}
+div#h1article p{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 1.5;
+  margin-top: 6%;
+}
+div#h1article a{
+  background-color: rgba(66,69,74,255);
+  padding: 5px 10px;
+  border-radius: 25px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 4.5;
+}
+#articleimg{
+  background-color: rgba(165, 42, 42, 0);
+  display: flex;
+  height: 100%;
+  width: 50vw;
+}
+#articleimg img{
+ margin-top: 2vh;
+ margin-bottom: 2vh;
 }
