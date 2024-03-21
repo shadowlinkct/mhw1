@@ -182,7 +182,20 @@ a#alink2:hover {
   background-color: rgb(0, 0, 0);
   margin: 5px 0;
 }
-
+.fixed-button {
+  font-family: "PT Sans", sans-serif;
+  background-color: #264E4A;
+  border-radius: 100px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 20px 20px;
+  position: fixed;
+  right: 5vw;
+  bottom: 2.5vw;
+  font-size: 18px;
+  font-weight: bold;
+}
 
 @media (max-width: 1000px) {
   .logonav {
@@ -212,6 +225,17 @@ a#alink2:hover {
     height: auto;
 
   }
+  .group {
+    margin-left: 0.1vh;
+    height: 100%;
+    width: 25%;
+  }
+
+  .group2 {
+    margin-right: 3.5vh;
+    height: 100%;
+    width: 12%;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -228,6 +252,9 @@ a#alink2:hover {
     height: auto;
     width: 200px;
     margin-left: 0;
+  }
+  .group{
+    width: 25%;
   }
 }
 
@@ -287,7 +314,6 @@ a#alink2:hover {
   .group {
     margin-left: 0.1vh;
     height: 100%;
-    width: 15%;
   }
 
   .group2 {
@@ -307,17 +333,10 @@ a#alink2:hover {
     margin-bottom: 2vh;
   }
   .fixed-button {
-    font-family: "PT Sans", sans-serif;
-    background-color: #264E4A;
-    border-radius: 100px;
-    color: #ffffff;
-    display: flex;
-    align-items: center;
     padding: 20px 20px;
     position: fixed;
     right: 5vw;
     bottom: 2.5vw;
     font-size: 18px;
-    font-weight: bold;
   }
 }
