@@ -1,5 +1,6 @@
 :root {
-  --articlecontainerdimensionheight: 88.7vh;
+  --articlecontainerdimensionheight: 68.5vh;
+  --articlecontainerdimensionheightlapt: 88.7vh;
 }
 
 * {
@@ -125,7 +126,7 @@ div#h1article p {
 }
 
 #alinktopmarg {
-  margin-top: 13vh;
+  margin-top: 11vh;
 }
 
 #alinktopmarg a {
@@ -184,6 +185,9 @@ a#alink2:hover {
 
 
 @media (max-width: 1000px) {
+  #alinktopmarg {
+    margin-top: 13vh;
+  }
   .logonav {
     display: flex;
     justify-content: space-between;
@@ -242,7 +246,7 @@ a#alink2:hover {
 
   #h1article {
     margin-left: 13vw;
-    height: var(--articlecontainerdimensionheight);
+    height: var(--articlecontainerdimensionheightlapt);
     ;
   }
 
@@ -295,7 +299,7 @@ a#alink2:hover {
   #articleimg {
     background-color: rgba(165, 42, 42, 0);
     display: flex;
-    height: var(--articlecontainerdimensionheight);
+    height: var(--articlecontainerdimensionheightlapt);
     width: 48.5vw;
   }
   
