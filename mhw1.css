@@ -1,6 +1,6 @@
 :root {
   --articlecontainerdimensionheight: 68.5vh;
-  --articlecontainerdimensionheightlapt: 88.7vh;
+  --articlecontainerdimensionheightlapt: 89.7vh;
 }
 
 * {
@@ -86,7 +86,7 @@ div#loginelemcontainer a {
   margin-left: 8%;
   height: 100%;
   width: 15%;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -95,7 +95,7 @@ div#loginelemcontainer a {
   margin-right: 9%;
   height: 100%;
   width: 12%;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -185,9 +185,6 @@ a#alink2:hover {
 
 
 @media (max-width: 1000px) {
-  #alinktopmarg {
-    margin-top: 13vh;
-  }
   .logonav {
     display: flex;
     justify-content: space-between;
@@ -235,7 +232,9 @@ a#alink2:hover {
 }
 
 @media (max-width: 1600px) {
-
+  #alinktopmarg {
+    margin-top: 13vh;
+  }
   .articlecontainer {
     width: 100%;
   }
@@ -276,7 +275,7 @@ a#alink2:hover {
 
   div.centerlink a {
     font-weight: bold;
-    font-size: 0.85em;
+    font-size: 1em;
     padding: 0.5% 2.5%;
   }
 
@@ -307,5 +306,4 @@ a#alink2:hover {
     margin-top: 2vh;
     margin-bottom: 2vh;
   }
-  
 }
