@@ -306,4 +306,18 @@ a#alink2:hover {
     margin-top: 2vh;
     margin-bottom: 2vh;
   }
+  .fixed-button {
+    font-family: "PT Sans", sans-serif;
+    background-color: #264E4A;
+    border-radius: 100px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    position: fixed;
+    right: 5vw;
+    bottom: 2.5vw;
+    font-size: 18px;
+    font-weight: bold;
+  }
 }
