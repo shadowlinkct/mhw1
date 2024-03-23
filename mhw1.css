@@ -1,7 +1,8 @@
 :root {
+  --articlecontainerdimensionheightsmall: 65.5vh;
   --articlecontainerdimensionheight: 68.5vh;
-  --articlecontainerdimensionheightlapt: 89.7vh;
-  --unidivheight:21vh;
+  --articlecontainerdimensionheightlapt: 68.5vh;
+  --unidivheight: 21vh;
   --paddingunidiv: 10px 0px;
 }
 
@@ -108,7 +109,7 @@ div#loginelemcontainer a {
 }
 
 #h1article {
-  margin-left: 20%;
+  margin-left: 21.5vw;
   height: var(--articlecontainerdimensionheight);
 }
 
@@ -128,7 +129,7 @@ div#h1article p {
 }
 
 #alinktopmarg {
-  margin-top: 11vh;
+  margin-top: 10.5vh;
 }
 
 #alinktopmarg a {
@@ -167,6 +168,8 @@ a#alink2:hover {
   display: flex;
   height: var(--articlecontainerdimensionheight);
   width: 49.5vw;
+  margin-right: 20vw;
+  margin-left: 1vw;
 }
 
 #articleimg img {
@@ -230,7 +233,7 @@ a#alink2:hover {
 }
 
 .divsectionfirst {
-   display: flex;
+  display: flex;
   align-items: center;
   height: 100%;
   background-color: rgba(255, 99, 71, 0);
@@ -257,12 +260,14 @@ div.sectionfirst span {
   font-size: 1.2em;
   font-weight: 500;
 }
-.asectionfirst{
+
+.asectionfirst {
   color: red;
   font-family: 'Montserrat', sans-serif;
   font-size: 1em;
   font-weight: 600;
 }
+
 .imgsectionfirst2 {
   display: flex;
   justify-content: center;
@@ -281,10 +286,120 @@ div.sectionfirst span {
   height: 100%;
 }
 
+/*-------*/
+/* Extra large devices (laptop con schermi di grandi dimensioni e desktop, 1600px e meno) */
+@media (max-width: 1670px) {
+
+  #logodiv {
+    width: 27vw;
+    z-index: 0;
+  }
+
+  #logodiv img {
+    height: auto;
+    width: 200px;
+    margin-left: 2vw;
+  }
+
+  div.centerlink a {
+    font-weight: bold;
+    font-size: 1em;
+    padding: 0.5% 2.5%;
+  }
+
+  .centerlink {
+    width: 46.3%;
+    height: 100%;
+  }
+
+  .group {
+    margin-left: 0.1vh;
+    height: 100%;
+  }
+
+  .group2 {
+    margin-right: 3.5vh;
+    height: 100%;
+    width: 12%;
+  }
+
+
+.articlecontainer {
+    width: 100%;
+  }
+  #alinktopmarg {
+    margin-top: 10vh;
+  }
+  div#h1article h1 {
+    font-size: 2.8em;
+  }
+
+  #h1article {
+    height: var(--articlecontainerdimensionheightlapt);
+    margin-left: 5vw;
+  }
+
+  div#h1article p {
+    font-size: 1.05em;
+    line-height: 1.5;
+  }
+  #alinktopmarg{
+    margin-top: 5vh;
+  }
+  #articleimg {
+    background-color: rgba(255, 0, 0, 0);
+    height: var(--articlecontainerdimensionheightlapt);
+    margin-right: 5vw;
+  }
+  #articleimg img {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+
+  .fixed-button {
+    padding: 20px 20px;
+    position: fixed;
+    right: 5vw;
+    bottom: 2.5vw;
+    font-size: 18px;
+  }
+  .unidiv,
+  .unidiv2 {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+/* Large devices (laptop con schermi di piccole dimensioni, 1200px e meno) */
 @media (max-width: 1200px) {
+  .divsectionfirst, .divsectionfirst2{
+    margin: 2px;
+  }
   .logonav {
     display: flex;
     justify-content: space-between;
+    height: 7vh;
+  }
+  #alinktopmarg {
+    margin-top: 3vh;
+  }
+.articlecontainer{
+  width: 100%;
+  height: auto;
+}
+  #h1article {
+    height: var(--articlecontainerdimensionheightsmall);
+    margin-left: 2vh;
+    margin-top: 2vh;
+    margin-bottom:2vh ;
+    
+  }
+
+  #articleimg {
+    height: var(--articlecontainerdimensionheightsmall);
+    margin-right: 2vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
   }
 
   .centerlink {
@@ -294,6 +409,28 @@ div.sectionfirst span {
   #menu {
     display: block;
     margin-right: 2vw;
+  }
+}
+
+/* Medium devices (landscape tablets, 992px e meno) */
+@media only screen and (max-width: 992px) {
+  /* Inserisci qui i tuoi stili CSS */
+}
+
+/* Small devices (portrait tablets e telefoni di grandi dimensioni, 768px e meno) */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 10px;
+  }
+
+  #logodiv img {
+    height: auto;
+    width: 200px;
+    margin-left: 0;
+  }
+
+  .group {
+    width: 25%;
   }
 
   .articlecontainer {
@@ -323,109 +460,7 @@ div.sectionfirst span {
   }
 }
 
-@media screen and (max-width: 600px) {
-  body {
-    font-size: 10px;
-  }
-
-  .logonav {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  #logodiv img {
-    height: auto;
-    width: 200px;
-    margin-left: 0;
-  }
-
-  .group {
-    width: 25%;
-  }
-}
-
-@media (max-width: 1600px) {
-  #alinktopmarg {
-    margin-top: 13vh;
-  }
-
-  .articlecontainer {
-    width: 100%;
-  }
-
-  div#h1article h1 {
-    font-size: 2.8em;
-  }
-
-  #h1article {
-    margin-left: 13vw;
-    height: var(--articlecontainerdimensionheightlapt);
-    ;
-  }
-
-  div#h1article p {
-    font-size: 1.05em;
-    line-height: 1.8;
-  }
-
-  #logodiv {
-    width: 27vw;
-    z-index: 0;
-  }
-
-  #logodiv img {
-    height: auto;
-    width: 200px;
-    margin-left: 2vw;
-  }
-
-  .logonav {
-    height: 12.8vh;
-  }
-
-  #flexlogin {
-    height: 6.5vh;
-  }
-
-  div.centerlink a {
-    font-weight: bold;
-    font-size: 1em;
-    padding: 0.5% 2.5%;
-  }
-
-  .centerlink {
-    width: 46.3%;
-    height: 100%;
-  }
-
-  .group {
-    margin-left: 0.1vh;
-    height: 100%;
-  }
-
-  .group2 {
-    margin-right: 3.5vh;
-    height: 100%;
-    width: 12%;
-  }
-
-  #articleimg {
-    background-color: rgba(165, 42, 42, 0);
-    display: flex;
-    height: var(--articlecontainerdimensionheightlapt);
-    width: 48.5vw;
-  }
-
-  #articleimg img {
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-  }
-
-  .fixed-button {
-    padding: 20px 20px;
-    position: fixed;
-    right: 5vw;
-    bottom: 2.5vw;
-    font-size: 18px;
-  }
+/* Extra small devices (telefoni, 600px e meno) */
+@media only screen and (max-width: 600px) {
+  /* Inserisci qui i tuoi stili CSS */
 }
