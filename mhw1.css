@@ -84,22 +84,22 @@ div#loginelemcontainer a {
   font-size: 14px;
 }
 
-.group {
+.group,
+.group2 {
   display: flex;
-  margin-left: 8%;
   height: 100%;
-  width: 13%;
   justify-content: space-between;
   align-items: center;
 }
 
+.group {
+  margin-left: 8%;
+  width: 13%;
+}
+
 .group2 {
-  display: flex;
   margin-right: 9%;
-  height: 100%;
   width: 12%;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .articlecontainer {
@@ -203,19 +203,19 @@ a#alink2:hover {
   font-weight: bold;
 }
 
-.sectionfirst {
+.academy-section {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.sectionfirstcontainer {
+.academy-container {
   display: flex;
   background-color: rgba(102, 51, 153, 0);
   width: 61%;
 }
 
-.divspansectionfirst {
+.academy-description {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -225,8 +225,7 @@ a#alink2:hover {
   padding: 10px;
 }
 
-.unidiv,
-.unidiv2 {
+.academy-item {
   background-color: #ffffff;
   display: flex;
   align-items: center;
@@ -236,8 +235,7 @@ a#alink2:hover {
   height: var(--unidivheight);
 }
 
-.divsectionfirst,
-.divsectionfirst2 {
+.academy-content {
   display: flex;
   align-items: center;
   height: 100%;
@@ -248,23 +246,23 @@ a#alink2:hover {
   box-shadow: 0px 0px 0.5px 0.5px #dcdbdb;
 }
 
-div.sectionfirstcontainer span,
-.asectionfirst {
+div.academy-container span,
+.academy-link {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
 }
 
-div.sectionfirstcontainer span {
+div.academy-container span {
   color: rgb(0, 0, 0);
   font-size: 1.3em;
 }
 
-.asectionfirst {
-  color: c32d32;
+.academy-link {
+  color: #c32d32;
   font-size: 1em;
 }
 
-.imgsectionfirst2 {
+.academy-image {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -275,14 +273,56 @@ div.sectionfirstcontainer span {
   margin: 3vh;
 }
 
-.imgsectionfirst2 img {
+.academy-image img {
   background-color: black;
   border-radius: 10px;
   width: auto;
   height: 100%;
 }
 
+.footer-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #c32d3200;
+  margin-top: 10vh;
+  align-items: center;
+}
 
+.footer-container p {
+  font-family: "PT Sans", sans-serif;
+  color: #5b5d6a;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.footer-text {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 255, 255, 0);
+  height: 100%;
+  width: 75%;
+  padding: 32px 0px;
+}
+.flex-icon {
+  background-color: #7a0c1000;
+  margin-left: 13.5%;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.icon-item, .icon-item-vletter img {
+  background-color: rgba(128, 0, 128, 0);
+  margin: 2px;
+  width: 4.5vh;
+  height: auto;
+}
+.icon-item-vletter img{
+  margin-right: 2vh;
+}
+.icon-item img{
+  width: 100%;
+}
 /*-------*/
 /* Extra large devices (laptop con schermi di grandi dimensioni e desktop, 1670px e meno) */
 @media (max-width: 1670px) {
@@ -309,17 +349,19 @@ div.sectionfirstcontainer span {
     height: 100%;
   }
 
+  .group,
+  .group2 {
+    height: 100%;
+  }
+
   .group {
     margin-left: 0.1vh;
-    height: 100%;
   }
 
   .group2 {
     margin-right: 3.5vh;
-    height: 100%;
     width: 12%;
   }
-
 
   .articlecontainer {
     width: 100%;
@@ -366,8 +408,7 @@ div.sectionfirstcontainer span {
     font-size: 18px;
   }
 
-  .unidiv,
-  .unidiv2 {
+  .academy-item {
     margin: 0;
     width: 100%;
   }
@@ -376,8 +417,7 @@ div.sectionfirstcontainer span {
 /* Large devices (laptop con schermi di piccole dimensioni, 1200px e meno) */
 @media (max-width: 1200px) {
 
-  .divsectionfirst,
-  .divsectionfirst2 {
+  .academy-content {
     margin: 2px;
   }
 
@@ -419,32 +459,32 @@ div.sectionfirstcontainer span {
     display: block;
     margin-right: 2vw;
   }
-  
-.sectionfirst {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-.sectionfirstcontainer {
-  width: 100%;
-}
+  .academy-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-div.sectionfirstcontainer span,
-.asectionfirst {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-}
+  .academy-container {
+    width: 100%;
+  }
 
-div.sectionfirstcontainer span {
-  color: rgb(0, 0, 0);
-  font-size: 1.1em;
-}
+  div.academy-container span,
+  .academy-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
 
-.asectionfirst {
-  color: #c32d32;
-  font-size: 0.9em;
-}
+  div.academy-container span {
+    color: rgb(0, 0, 0);
+    font-size: 1.1em;
+  }
+
+  .academy-link {
+    color: #c32d32;
+    font-size: 0.9em;
+  }
 }
 
 /* Medium devices (landscape tablets, 992px e meno) */
@@ -457,7 +497,7 @@ div.sectionfirstcontainer span {
 
   #logodiv img {
     height: auto;
-    width: 200px;
+    max-width: 100%;
     margin-left: 0;
   }
 
@@ -483,25 +523,28 @@ div.sectionfirstcontainer span {
 
   }
 
+  .group,
+  .group2 {
+    height: 100%;
+  }
+
   .group {
     margin-left: 0.1vh;
-    height: 100%;
     width: 25%;
   }
 
   .group2 {
     margin-right: 3.5vh;
-    height: 100%;
     width: 12%;
   }
 
-  .sectionfirstcontainer {
+
+  .academy-container {
     background-color: rgba(102, 51, 153, 0);
     width: 100%;
   }
 
-  .unidiv,
-  .unidiv2 {
+  .academy-item {
     background-color: #ffffff;
     margin-left: 0;
     width: 100%;
@@ -509,23 +552,20 @@ div.sectionfirstcontainer span {
     height: auto;
   }
 
-  .divsectionfirst,
-  .divsectionfirst2 {
+  .academy-content {
     background-color: rgba(255, 99, 71, 0);
     border-radius: 10px;
     margin: 2px;
     box-shadow: 0px 0px 0.5px 0.5px #dcdbdb;
   }
 
-  .sectionfirstcontainer,
-  .unidiv,
-  .unidiv2,
-  .divsectionfirst,
-  .divsectionfirst2 {
+  .academy-container,
+  .academy-item,
+  .academy-content {
     flex-direction: column;
   }
 
-  div.sectionfirst span {
+  div.academy-section span {
     display: block;
     color: rgb(0, 0, 0);
     font-family: 'Montserrat', sans-serif;
@@ -533,20 +573,20 @@ div.sectionfirstcontainer span {
     font-weight: 500;
   }
 
-  .asectionfirst {
-    color: c32d32;
+  .academy-link {
+    color: #c32d32;
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
     font-weight: 600;
   }
 
-  .imgsectionfirst2 {
+  .academy-image {
     width: 100%;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0);
   }
 
-  .imgsectionfirst2 img {
+  .academy-image img {
     background-color: black;
     border-radius: 10px;
     width: 100%;
