@@ -149,7 +149,8 @@ div#h1article p {
   border-radius: 7px;
   color: white;
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.05em;;
+  font-size: 1.05em;
+  ;
   font-weight: bold;
   line-height: 4.5;
   text-decoration: none;
@@ -199,7 +200,8 @@ a#alink2:hover {
   position: fixed;
   right: 5vw;
   bottom: 2.5vw;
-  font-size: 1.1em;;
+  font-size: 1.1em;
+  ;
   font-weight: bold;
 }
 
@@ -549,7 +551,9 @@ div.academy-container span {
 /*-------*/
 /* Extra large devices (laptop con schermi di grandi dimensioni e desktop, 1670px e meno) */
 @media (max-width: 1670px) {
-
+  #flexlogin {
+    height: 6.2vh;
+  }
   #logodiv {
     width: 27vw;
     z-index: 0;
@@ -579,6 +583,7 @@ div.academy-container span {
 
   .group {
     margin-left: 0.1vh;
+    width: 16%;
   }
 
   .group2 {
@@ -650,9 +655,13 @@ div.academy-container span {
     background-color: rgba(0, 255, 255, 0);
     width: 77%;
     flex-direction: column;
+    margin-top: 10vw;
   }
 
   .largetabitem {
+    width: 100%
+  }
+  .mediumtabitem {
     width: 100%
   }
 
@@ -683,7 +692,7 @@ div.academy-container span {
   .logonav {
     display: flex;
     justify-content: space-between;
-    height: 7vh;
+    height: 6vw;
   }
 
   #alinktopmarg {
@@ -875,4 +884,32 @@ div.academy-container span {
 }
 
 /* Extra small devices (telefoni, 600px e meno) */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+  .logonav {
+    display: flex;
+    justify-content: space-between;
+    height: 19.1vw;
+  }
+  #logodiv img {
+  height: auto;
+  width: 200px;
+  margin-left: 0%;
+}
+.group,.group2{
+  width: 50%;
+  margin-left: 0;
+  margin-right: 0;
+}
+#logodiv {
+  background-color: rgba(43, 174, 226, 0);
+  display: flex;
+  align-items: center;
+  height: auto;
+  width: 55%;
+  z-index: 0;
+}
+#articleimg {
+  margin-right: 0vw;
+  margin-left: 0vw;
+}
+}
