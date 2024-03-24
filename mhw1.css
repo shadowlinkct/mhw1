@@ -548,8 +548,8 @@ div.academy-container span {
   width: 100%;
 }
 
-/*-------*/
-/* Extra large devices (laptop con schermi di grandi dimensioni e desktop, 1670px e meno) */
+/*----MEDIA QUERY---*/
+/*(laptop con schermi di grandi dimensioni e desktop, 1670px e meno) */
 @media (max-width: 1670px) {
   #flexlogin {
     height: 6.2vh;
@@ -643,7 +643,7 @@ div.academy-container span {
   }
 }
 
-/* Large devices (laptop con schermi di piccole dimensioni, 1200px e meno) */
+/*(laptop con schermi di piccole dimensioni, 1200px e meno) */
 @media screen and (max-width: 1200px) {
   .imagelargetab {
     height: 54%;
@@ -753,7 +753,7 @@ div.academy-container span {
   }
 }
 
-/* Medium devices (landscape tablets, 992px e meno) */
+/*(landscape tablets, 992px e meno) */
 @media only screen and (max-width: 992px) {
   .footer-text {
     flex-direction: column;
@@ -774,7 +774,7 @@ div.academy-container span {
   }
 }
 
-/* Small devices (portrait tablets e telefoni di grandi dimensioni, 768px e meno) */
+/*(portrait tablets e telefoni di grandi dimensioni, 768px e meno) */
 @media only screen and (max-width: 768px) {
   .fixed-button a {
     display: none;
@@ -873,7 +873,7 @@ div.academy-container span {
   }
 }
 
-/* Extra small devices (telefoni, 600px e meno) */
+/*(telefoni, 600px e meno) */
 @media only screen and (max-width: 600px) {
   .logonav {
     display: flex;
