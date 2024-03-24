@@ -122,7 +122,7 @@ div#h1article h1 {
 div#h1article p {
   color: white;
   font-family: 'Montserrat', sans-serif;
-  font-size: 17px;
+  font-size: 1em;
   font-weight: normal;
   line-height: 1.7;
   margin-top: 6%;
@@ -404,7 +404,7 @@ div.academy-container span {
 .mediumtabtext span {
   font-family: "PT Sans", sans-serif;
   color: #2C2D33;
-  font-size: 12px;
+  font-size: 0.75em;
 }
 
 .mediumtabtext h4 {
@@ -596,7 +596,7 @@ div.academy-container span {
   }
 
   #alinktopmarg {
-    margin-top: 10vh;
+    margin-top: 5vh;
   }
 
   div#h1article h1 {
@@ -613,12 +613,7 @@ div.academy-container span {
     line-height: 1.5;
   }
 
-  #alinktopmarg {
-    margin-top: 13vh;
-  }
-
   #articleimg {
-    background-color: rgba(255, 0, 0, 0);
     height: var(--articlecontainerdimensionheightlapt);
     margin-right: 13vw;
     ;
@@ -634,7 +629,7 @@ div.academy-container span {
     position: fixed;
     right: 5vw;
     bottom: 2.5vw;
-    font-size: 18px;
+    font-size: 1.1em;
   }
 
   .academy-item {
@@ -652,7 +647,6 @@ div.academy-container span {
 @media screen and (max-width: 1200px) {
   .multisectioncontainer {
     display: flex;
-    background-color: rgba(0, 255, 255, 0);
     width: 77%;
     flex-direction: column;
     margin-top: 10vw;
@@ -667,13 +661,11 @@ div.academy-container span {
 
   .multismallsectioncontainer {
     display: flex;
-    background-color: rgba(0, 255, 255, 0);
     width: 77%;
     flex-direction: column;
   }
 
   .imagesmalltab {
-    background-color: rgba(0, 0, 0, 0);
     height: auto;
     width: 51.5%;
     margin-left: 1vh;
@@ -681,7 +673,6 @@ div.academy-container span {
 
   .multismallsectioncontainer {
     display: flex;
-    background-color: rgba(0, 255, 255, 0);
     width: 100%;
   }
 
@@ -696,7 +687,7 @@ div.academy-container span {
   }
 
   #alinktopmarg {
-    margin-top: 3vh;
+    margin-top: 0vh;
   }
 
   .articlecontainer {
@@ -705,15 +696,12 @@ div.academy-container span {
   }
 
   #h1article {
-    height: var(--articlecontainerdimensionheightsmall);
-    margin-left: 2vh;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-
+    height:auto;
+    margin: 0;
   }
 
   #articleimg {
-    height: var(--articlecontainerdimensionheightsmall);
+    
     margin-right: 2vh;
     margin-top: 2vh;
     margin-bottom: 2vh;
@@ -739,18 +727,10 @@ div.academy-container span {
   }
 
   div.academy-container span {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-  }
-
-  div.academy-container span {
-    color: rgb(0, 0, 0);
     font-size: 1.1em;
   }
 
   .academy-link {
-    font-family: "PT Sans", sans-serif;
-    color: #c32d32;
     font-size: 0.9em;
   }
 }
@@ -769,6 +749,10 @@ div.academy-container span {
   .icon-item {
     width: 5.5vh;
     height: auto;
+  }
+  .logonav {
+    display: flex;
+    height: 10vw;
   }
 }
 
@@ -805,7 +789,6 @@ div.academy-container span {
   }
 
   #articleimg img {
-    background-color: aqua;
     width: 100vw;
     height: auto;
 
@@ -828,12 +811,10 @@ div.academy-container span {
 
 
   .academy-container {
-    background-color: rgba(102, 51, 153, 0);
     width: 100%;
   }
 
   .academy-item {
-    background-color: #ffffff;
     margin-left: 0;
     width: 100%;
     padding: 0;
@@ -841,10 +822,8 @@ div.academy-container span {
   }
 
   .academy-content {
-    background-color: rgba(255, 99, 71, 0);
     border-radius: 10px;
     margin: 2px;
-    box-shadow: 0px 0px 0.5px 0.5px #dcdbdb;
   }
 
   .academy-container,
@@ -855,32 +834,25 @@ div.academy-container span {
 
   div.academy-section span {
     display: block;
-    color: rgb(0, 0, 0);
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2em;
     font-weight: 500;
   }
 
   .academy-link {
-    color: #c32d32;
-    font-family: 'Montserrat', sans-serif;
     font-size: 1em;
-    font-weight: 600;
   }
 
   .academy-image {
     width: 100%;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0);
   }
 
   .academy-image img {
-    background-color: black;
     border-radius: 10px;
     width: 100%;
     height: auto;
   }
-
 }
 
 /* Extra small devices (telefoni, 600px e meno) */
@@ -901,7 +873,6 @@ div.academy-container span {
   margin-right: 0;
 }
 #logodiv {
-  background-color: rgba(43, 174, 226, 0);
   display: flex;
   align-items: center;
   height: auto;
