@@ -43,7 +43,7 @@ body {
 
 div.centerlink a {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1em;
   color: #2C2D33;
   padding: 0.5% 0.5%;
 }
@@ -419,7 +419,7 @@ background-color: #c32d3200;
 .smalltabcontainer {
   display: flex;
   flex-direction: column;
-  background-color: #052bff00;
+  background-color: #1235ff00;
   margin: 2px;
   height: 50vh;
   flex:1;
@@ -437,7 +437,8 @@ background-color: #c32d3200;
   background-color: rgba(0, 0, 0, 0);
   height: auto;
   width: 51.5%;
-  flex-direction: column;
+  flex-direction: row;
+  margin-top: 2vh;
 }
 .smalltabcontent {
   display: flex;
@@ -453,6 +454,7 @@ background-color: #c32d3200;
 .smalltabtext{
   display: flex;
   margin-left: 1vh;
+  margin-top: 2vh;
 }
 .smalltabtext span{
   font-family: "PT Sans", sans-serif;
@@ -460,9 +462,9 @@ background-color: #c32d3200;
   font-size: 0.8em; 
 }
 .smalltabtext h4{
-  font-family: "PT Sans", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   color: #2C2D33;
-  font-size: 1.1em;
+  font-size: 1.4em;
   padding: 5px;
   font-weight: 400; 
 }
@@ -628,6 +630,17 @@ background-color: #c32d3200;
   background-color: rgba(0, 255, 255, 0);
   width: 77%;
   flex-direction: column;
+}
+.imagesmalltab{
+  background-color: rgba(0, 0, 0, 0);
+  height: auto;
+  width: 51.5%;
+  margin-left: 1vh;
+}
+.multismallsectioncontainer {
+  display: flex;
+  background-color: rgba(0, 255, 255, 0);
+  width: 100%; 
 }
   .academy-content {
     margin: 2px;
