@@ -1,7 +1,7 @@
 :root {
   --articlecontainerdimensionheightsmall: 65.5vh;
   --articlecontainerdimensionheight: 68.5vh;
-  --articlecontainerdimensionheightlapt: 68.5vh;
+  --articlecontainerdimensionheightlapt: 88.5vh;
   --unidivheight: 17vh;
   --paddingunidiv: 10px 0px;
 }
@@ -577,7 +577,7 @@ background-color: #c32d3200;
 
   #h1article {
     height: var(--articlecontainerdimensionheightlapt);
-    margin-left: 5vw;
+    margin-left: 13vw;
   }
 
   div#h1article p {
@@ -586,13 +586,13 @@ background-color: #c32d3200;
   }
 
   #alinktopmarg {
-    margin-top: 5vh;
+    margin-top: 13vh;
   }
 
   #articleimg {
     background-color: rgba(255, 0, 0, 0);
     height: var(--articlecontainerdimensionheightlapt);
-    margin-right: 5vw;
+    margin-right: 13vw;;
   }
 
   #articleimg img {
@@ -611,6 +611,10 @@ background-color: #c32d3200;
   .academy-item {
     margin: 0;
     width: 100%;
+  }
+    .logonav {
+    display: flex;
+    height: 6vw;
   }
 }
 
