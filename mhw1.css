@@ -554,6 +554,7 @@ div.academy-container span {
   #flexlogin {
     height: 6.2vh;
   }
+
   #logodiv {
     width: 27vw;
     z-index: 0;
@@ -650,19 +651,21 @@ div.academy-container span {
     width: 100%;
     margin-top: 6.5vh;
   }
-  
+
   .imagelargetab img {
     width: 90%;
   }
+
   .imagemediumtab {
     width: 68%;
     margin-top: 9.5vh;
   }
-  
+
   .imagemediumtab img {
     width: 100%;
     height: auto;
   }
+
   .multisectioncontainer {
     display: flex;
     width: 77%;
@@ -673,6 +676,7 @@ div.academy-container span {
   .largetabitem {
     width: 100%
   }
+
   .mediumtabitem {
     width: 100%
   }
@@ -714,12 +718,12 @@ div.academy-container span {
   }
 
   #h1article {
-    height:auto;
+    height: auto;
     margin: 0;
   }
 
   #articleimg {
-    
+
     margin-right: 2vh;
     margin-top: 2vh;
     margin-bottom: 2vh;
@@ -768,6 +772,7 @@ div.academy-container span {
     width: 5.5vh;
     height: auto;
   }
+
   .logonav {
     display: flex;
     height: 10vw;
@@ -880,25 +885,30 @@ div.academy-container span {
     justify-content: space-between;
     height: 19.1vw;
   }
+
   #logodiv img {
-  height: auto;
-  width: 200px;
-  margin-left: 0%;
-}
-.group,.group2{
-  width: 50%;
-  margin-left: 0;
-  margin-right: 0;
-}
-#logodiv {
-  display: flex;
-  align-items: center;
-  height: auto;
-  width: 55%;
-  z-index: 0;
-}
-#articleimg {
-  margin-right: 0vw;
-  margin-left: 0vw;
-}
+    height: auto;
+    width: 200px;
+    margin-left: 0%;
+  }
+
+  .group,
+  .group2 {
+    width: 50%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #logodiv {
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: 55%;
+    z-index: 0;
+  }
+
+  #articleimg {
+    margin-right: 0vw;
+    margin-left: 0vw;
+  }
 }
